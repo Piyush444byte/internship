@@ -1,21 +1,19 @@
-function createLikes(){
-    let likes = 0;
-    const display = document.getElementById("likes-count");
-
-    function updateDisplay(){
-        if (display) {
-            display.textContent = `Likes: ${likes}`;
-        }
-    }
-
-    return function(){
-        likes++;
-        updateDisplay();
-    };
-}
-
-const like = createLikes();
-
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("like").onclick = like;
+    const likeButton = document.getElementById("like");
+    const display = document.getElementById("likes-count");
+    let likes = 0;
+    let liked = false;
+
+    if (likeButton && display) {
+        likeButton.addEventListener("click", () => {
+            if (liked) {
+                likes -= 1;
+                liked = false;
+            } else {
+                likes += 1;
+                liked = true;
+            }
+            display.textContent = `Likes: ${likes}`;
+        });
+    }
 });

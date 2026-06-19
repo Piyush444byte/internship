@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+}
+
+#backdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(105, 187, 219);
+    padding: 20px 24px;
+    gap: 16px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    border-radius: 20%;
+}
+
+#title {
+    margin: 0;
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#backdiv p {
+    margin: 4px 0 0;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(64, 143, 84);
+    font-size: x-large;
+   
+}
+
+.box1{
+    background-color: aquamarine;
+   height: 90%;
+    width: 90%;
+    display: flex;
+    margin: 5px;
+    float: left;
+}
+
+.outerbox{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-color: aquamarine;
+
+}
