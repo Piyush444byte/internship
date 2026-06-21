@@ -55,18 +55,34 @@ body {
 }
 
 .box1{
-    background-color: aquamarine;
-   height: 90%;
+    /* background-color: aquamarine; */
+   height: 85%;
     width: 90%;
-    display: flex;
+    display: inline-flex;
     margin: 5px;
     float: left;
 }
 
 .outerbox{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 10px;
     background-color: aquamarine;
+    border-radius: 10%;
+    font-size: medium;
+    text-align: center;
+    font-family:gelasio;
 
+} 
+img{
+    height: 170px;
+    width: 170px;
+   margin: 5px;
+   margin-left: 10px;
+   border-radius: 5%;
+}
+
+ .outerbox:hover{
+   background-color: rgb(127, 206, 194);
+ transform: scale(1.1);
 }
