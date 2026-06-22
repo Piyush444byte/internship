@@ -144,4 +144,13 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+} 
+
+
+.menu{
+    align-items: center;
+    height: 700px;
+    width: 500px;
+    align: center;
+
 }
