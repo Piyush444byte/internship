@@ -1,126 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YummyTo</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;600;700&display=swap" rel="stylesheet">
+<title>YummyTo</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
 
+
 <header>
-    <div id="backdiv">
-        <div class="brand">
-            <img src="images/logo.jpg" alt="Logo" class="logo">
 
-            <div>
-                <h1 id="title">YummyTo</h1>
-                <p>"Where Flavor Meets Passion"</p>
-            </div>
-        </div>
+<div id="backdiv">
 
-        <nav class="nav">
-            <a href="index.html">Home</a>
-            <a href="restaurants.html">Restaurants</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </nav>
-    </div>
+<div class="brand">
+
+<img src="images/logo.jpg" class="logo">
+
+<div>
+
+<h1 id="title">YummyTo</h1>
+
+<p>"Where Flavor Meets Passion"</p>
+
+</div>
+
+</div>
+
+
+<nav class="nav">
+
+<a href="index.html">Home</a>
+
+<a href="restaurants.html">Restaurants</a>
+
+<a href="#">About</a>
+
+<a href="#">Services</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+
+</div>
+
 </header>
+
+
+
 
 <main>
 
-    <!-- Restaurants -->
-    <section id="restaurants">
-        <h2 class="section-title">Popular Restaurants</h2>
 
-        <div class="card-container">
+<section id="restaurants">
 
-            <div class="outerbox">
-                <img src="images/waterfall.jpg" alt="">
-                <p class="para">The Waterfall Restaurant</p>
-            </div>
 
-            <div class="outerbox">
-                <img src="images/littlemonk.webp" alt="">
-                <p class="para">Little Monk Restaurant</p>
-            </div>
+<h2 class="section-title">
+Popular Restaurants
+</h2>
 
-            <div class="outerbox">
-                <img src="images/madhuram.webp" alt="">
-                <p class="para">Madhuram Sandwich</p>
-            </div>
 
-            <div class="outerbox">
-                <img src="images/coriander.webp" alt="">
-                <p class="para">Coriander Leaf Restaurant</p>
-            </div>
 
-            <div class="outerbox">
-                <img src="images/adams.webp" alt="">
-                <p class="para">Adam's Ale</p>
-            </div>
+<div class="card-container">
 
-        </div>
-    </section>
 
-    <!-- Food Section -->
-    <section id="food">
-        <h2 class="section-title">Search by Foods</h2>
+<div class="outerbox">
 
-        <div class="card-container">
+<img src="images/waterfall.jpg">
 
-            <div class="outerbox">
-                <img src="images/indian.jfif" alt="indian food">
-                <p class="para">Indian Food</p>
-            </div>
+<p class="para">
+The Waterfall Restaurant
+</p>
 
-            <div class="outerbox">
-                <img src="images/chinese.webp" alt="chinese food">
-                <p class="para">Chinese Food</p>
-            </div>
+</div>
 
-            <div class="outerbox">
-                <img src="images/italian.webp" alt="italian food">
-                <p class="para">Italian Food</p>
-            </div>
 
-            <div class="outerbox">
-                <img src="images/pizza.png" alt="pizza">
-                <p class="para">Pizza</p>
-            </div>
 
-            <div class="outerbox">
-                <img src="images/burger.webp" alt="burger">
-                <p class="para">Burger</p>
-            </div>
+<div class="outerbox">
 
-              <!-- <div class="outerbox">
-                <img src="images/madhuram-sandwich.webp" alt="sandwich">
-                <p class="para">Sandwich</p>
-            </div> -->
+<img src="images/littlemonk.webp">
 
-            
-              <!-- <div class="outerbox">
-                <img src="images/dalbati.webp" alt="sandwich">
-                <p class="para">Dal Baati</p>
-                <p>MP's famous Dal Baati</p>
-            </div> -->
+<p class="para">
+Little Monk Restaurant
+</p>
 
-        </div>
-    </section>
+</div>
+
+
+
+<div class="outerbox">
+
+<img src="images/madhuram.webp">
+
+<p class="para">
+Madhuram Sandwich
+</p>
+
+</div>
+
+
+
+<div class="outerbox">
+
+<img src="images/coriander.webp">
+
+<p class="para">
+Coriander Leaf Restaurant
+</p>
+
+</div>
+
+
+
+<div class="outerbox">
+
+<img src="images/adams.webp">
+
+<p class="para">
+Adam's Ale
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="food">
+
+
+<h2 class="section-title">
+Search By Food
+</h2>
+
+
+
+<div class="card-container">
+
+
+
+<div class="outerbox food-card"
+onclick="findRestaurant('Indian')">
+
+<img src="images/indian.jfif">
+
+<p class="para">
+Indian Food
+</p>
+
+</div>
+
+
+
+
+<div class="outerbox food-card"
+onclick="findRestaurant('Chinese')">
+
+<img src="images/chinese.webp">
+
+<p class="para">
+Chinese Food
+</p>
+
+</div>
+
+
+
+
+<div class="outerbox food-card"
+onclick="findRestaurant('Italian')">
+
+<img src="images/italian.webp">
+
+<p class="para">
+Italian Food
+</p>
+
+</div>
+
+
+
+
+<div class="outerbox food-card"
+onclick="findRestaurant('Pizza')">
+
+<img src="images/pizza.png">
+
+<p class="para">
+Pizza
+</p>
+
+</div>
+
+
+
+
+<div class="outerbox food-card"
+onclick="findRestaurant('Burger')">
+
+<img src="images/burger.webp">
+
+<p class="para">
+Burger
+</p>
+
+</div>
+
+
+
+
+<div class="outerbox food-card"
+onclick="findRestaurant('Sandwich')">
+
+<img src="images/madhuram-sandwich.webp">
+
+<p class="para">
+Sandwich
+</p>
+
+</div>
+
+
+
+
+<div class="outerbox food-card"
+onclick="findRestaurant('Dal Baati')">
+
+<img src="images/dalbati.webp">
+
+<p class="para">
+Dal Baati
+</p>
+
+</div>
+
+
+</div>
+
+
+
+
+<h2 class="section-title">
+Available Restaurants
+</h2>
+
+
+<div id="result" class="card-container">
+
+</div>
+
+
+</section>
+
+
 
 </main>
 
+
+
+
 <footer>
-    <p>&copy; 2026 YummyTo. All Rights Reserved.</p>
+
+<p>
+© 2026 YummyTo. All Rights Reserved.
+</p>
+
 </footer>
 
+
+
+<script src="index.js"></script>
+
+
 </body>
+
 </html>
