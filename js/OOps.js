@@ -38,31 +38,34 @@
 // student2.isPresent();
 
 
-class Animal{
-    constructor(name,breed){
-        this.name =name;
-    }
-    eat(){
-        console.log(`${this.name} is eating`);
-    }
-    sleep(){
-        console.log(`${this.name} is Sleeping`);
-    }
-}
+
+  //INHEITANCE
+
+  // class Animal{
+//     constructor(name,breed){
+//         this.name =name;
+//     }
+//     eat(){
+//         console.log(`${this.name} is eating`);
+//     }
+//     sleep(){
+//         console.log(`${this.name} is Sleeping`);
+//     }
+// }
 
 
-class Dog extends Animal{
-    constructor(name,breed){
-        super(name);
-        this.breed=breed;
-    }
-    bark(){
-        console.log(`${this.name} bark ${this.breed}`);
-    }
-}
+// class Dog extends Animal{
+//     constructor(name,breed){
+//         super(name);
+//         this.breed=breed;
+//     }
+//     bark(){
+//         console.log(`${this.name} bark ${this.breed}`);
+//     }
+// }
 
-const dog1 = new Dog("bhuraDon", "indian Stray Dog");
-dog1.bark();
-dog1.eat();
-dog1.sleep();
-dog1.breed();
+// const dog1 = new Dog("bhuraDon", "indian Stray Dog");
+// dog1.bark();
+// dog1.eat();
+// dog1.sleep();
+// dog1.breed();
