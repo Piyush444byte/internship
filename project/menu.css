@@ -1,0 +1,70 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    background-color:#f2f2f2;
+    font-family:Arial, sans-serif;
+}
+
+/* Heading */
+h1{
+    text-align:center;
+    color:darkblue;
+    margin:20px;
+}
+
+/* Table */
+table{
+    width:50%;
+    margin:20px auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+/* Table Heading */
+th{
+    background:blue;
+    color:white;
+    padding:15px;
+}
+
+/* Table Data */
+td{
+    padding:15px;
+    border-bottom:1px solid #ccc;
+}
+
+/* Hover Effect */
+tr:hover{
+    background-color:lightblue;
+}
+
+/* Price Column */
+td:last-child{
+    text-align:right;
+    color:red;
+    font-weight:bold;
+}
+
+/* Back Link */
+a{
+    display:block;
+    width:180px;
+    margin:20px auto;
+    text-align:center;
+    background:blue;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    border-radius:5px;
+}
+
+/* Link Hover */
+a:hover{
+    background:darkblue;
+}
