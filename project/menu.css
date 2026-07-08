@@ -68,3 +68,25 @@ a{
 a:hover{
     background:darkblue;
 }
+
+/* Buy Button */
+.buy-btn {
+    background-color: #14B8A6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #0D9488;
+    transform: scale(1.05);
+}
+
+.buy-btn:active {
+    transform: scale(0.98);
+}

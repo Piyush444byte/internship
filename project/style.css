@@ -100,6 +100,29 @@ body {
     color: #64748B;
 }
 
+.buy-btn {
+    background-color: #14B8A6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #0D9488;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(20,184,166,0.3);
+}
+
+.buy-btn:active {
+    transform: scale(0.98);
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     #backdiv {
