@@ -64,7 +64,7 @@ class ShoppingCart {
 
 const cart = new ShoppingCart();
 
-//  items
+
 cart.addItem("Laptop", 1200);
 cart.addItem("Mouse", 25);
 cart.addItem("Keyboard", 80);
